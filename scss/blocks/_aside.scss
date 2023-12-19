@@ -1,0 +1,99 @@
+.aside {
+    background-image: url(/images/bgimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 300px;
+    top: -85px;
+    left: 890px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: -200px;
+
+
+    &__head {
+        width: 415px;
+        height: 96px;
+        top: 17px;
+        left: 1055px;  
+        font-family: Space Mono;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -2.142857074737549px;
+        text-align: left;
+        color: aliceblue;
+        margin-left: 150px;
+        padding-top: 70px;
+    }
+
+    &__list {
+        margin-top: 180px;
+    }
+
+    &__img {
+        margin-left: 20px;
+    }
+}
+
+    @media (max-width:769px) {
+        .aside {
+            width: 768px;
+            height: 300px;
+            top: 4266px;
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: auto;
+            margin-left: -20px;
+     
+            &__head {
+                margin-top: -5px;
+                width: 457px;
+                top: 4328px;
+                left: 155px;
+                font-family: Space Mono;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 48px;
+                letter-spacing: -2.142857074737549px;
+                text-align: center;
+
+            }
+
+            &__img {
+               transform: translateY(-120px);
+            }
+        }
+    }
+
+    @media (max-width:376px) {
+        .aside {
+            width: 375px;
+            height: 320px;
+            top: 4200px;
+
+
+            &__head {
+                width: 311px;
+                top: 4288px;
+                left: 32px;
+                font-family: Space Mono;
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 32px;
+                letter-spacing: -1.4285714626312256px;
+                text-align: center;
+                margin-left: 35px;
+            }
+
+            &__img {
+                width: 113.57px;
+                height: 40px;
+                top: 4392px;
+                left: 59px;
+
+            }
+        }
+    }

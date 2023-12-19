@@ -1,0 +1,24 @@
+html{
+    scroll-behavior: smooth;
+   }
+   
+   body  {
+    padding: 0 20px;
+    margin: 0 ;
+    box-sizing: border-box;
+    font-family: 'Arrial' sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+   }
+   
+   *, ::after, ::before{
+    box-sizing: inherit;
+   }
+   
+   .container {
+       max-width: 1440px;
+       margin: 0 auto;
+       padding: 0 20px;
+   }
